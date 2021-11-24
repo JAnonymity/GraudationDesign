@@ -1,0 +1,1290 @@
+ul
+{
+	list-style: none;
+}
+
+
+
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+body {
+	font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+	color: #333333;
+	background-color: #F5F5F5;
+	white-space: nowrap;
+}
+
+
+/* 漫威标题栏start */
+
+.gobackmain	{
+	
+}
+
+#Marvel-top{
+	display: flex;
+	width: 100%;
+	height: auto;
+	background-color: #000000;
+}
+
+#Marvel-topcontent{
+	
+	width:1200px;	
+	margin: 0 auto;
+}
+
+.Marvel-logo{
+	float: left;
+	width: 200px;
+}
+
+.Marvel-logo>a>img{
+	vertical-align: middle;
+}
+
+.Marvel-logo>a>img{
+	width: 100px;
+	height: 60px;
+}
+
+.Marvel-logo>em{
+	position: relative;
+	left: 120px;
+	width: 1px;
+	height: 40px;
+	margin: 10px 5px;
+	float: left;
+	background: #FFFFFF;
+}
+
+.Marvel-toplist{
+	float: left;
+	width: 800px;
+	height: 60px;
+}
+
+
+
+#Marvel-list>li>a{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#Marvel-list>li>a:hover{
+	color: red;
+}
+
+
+#Marvel-list>li{
+	float: left;
+	padding-right: 20px;
+}
+
+.toplist-right{
+	float: right;
+	height: 60px;
+}
+
+.toplist-right>.search{	
+	line-height: 60px;
+}
+
+
+.toplist-right>.search{	
+	background-color: transparent;
+}
+
+.toplist-right>.search>input:hover{
+	border: 1px solid #F0F0F0;
+}
+
+
+
+.toplist-right>.search>input{
+	border-radius: 15px;
+	border: 0;
+}
+
+.toplist-right>.search>em{
+	color: #000000;
+	position: relative;
+	left: -22px;
+}
+
+
+.gobackmain {
+	position: fixed;
+	bottom: 20px;
+	left: 30px;
+	z-index: 99;
+	border: none;
+	background-color: #ff5500;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	background-color: #ff5500;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+/* 漫威banner */
+#Marvel-banner{
+	background: url(../image/Marvel/Mtitle.png) no-repeat;
+	width: 100%;
+	height: 900px;
+}
+
+.Marvel-bimage{
+	position: relative;
+	width: 1280px;
+	margin: 0 auto;
+	top: 200px;
+}
+
+
+.Marvel-bimage>img{
+	width: 1280px;
+	height: 542px;
+}
+
+.Marvel-bimage>video{
+	position: absolute;
+	top: -140px;
+	margin: 0 auto;
+	width: 1280px;
+	height: 950px;
+}
+
+#Marvel-videoon:hover{
+	background: url(../image/Marvel/iconfont.png) -84px -215px no-repeat;
+}
+
+
+#Marvel-videoon{
+	position: absolute;
+	left: 600px;
+	top: 250px;
+	cursor: pointer;
+	background: url(../image/Marvel/iconfont.png) 0 -215px no-repeat;
+	width: 84px;
+	height: 58px;
+	
+}
+
+/* 漫威动态栏 */
+
+#Marvel-news{
+	width: 100%;
+	height: 550px;
+	background: #fff url(../image/Marvel/new_bj.jpg) repeat-x;
+	padding-top: 26px;	
+}
+
+#Marvel-news #news-title{
+	float: left;
+	width: 760px;
+	height: 53px;
+	background-image: url(../image/Marvel/new_title.png);
+}
+
+#Marvel-news #news-topcontent{
+	float: left;
+	width: 500px;
+	height: 53px;
+}
+
+#Marvel-news #news-topcontent>p{
+	float: left;
+	font-size: 20px;
+	margin-left: 20px;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+#Marvel-news #news-topcontent>em{
+	float: right;
+	font-size: 30px;
+}
+
+
+.topcontent-font>a{
+	font-size: 25px;
+	color: red;
+}
+
+/* 漫威内容页start */
+
+
+.Ironcontent{
+	background: url(../image/Marvel/Ironman-back.png) center top no-repeat;
+}
+
+.Iron-back{
+	width: 100%;
+	height: 700px;
+}
+
+
+
+.Marvelcontent{
+	border-radius: 16px;
+	border: 2px solid #FFF0F5;
+	position: relative;
+	top: 50px;
+	width: 1000px;
+	height: 500px;
+	margin: 150px auto auto auto;
+	background-image:linear-gradient(to bottom,#FF6347,#DAA520);
+}
+
+.Marvelcontent #Marvelcontentbox-top{
+	width: 1000px;
+	height: 250px;
+}
+
+.Marvelcontent .content-left{
+	float: right;
+}
+
+.Marvelcontent .content-left #Marvel-icon{
+	height: 100px;
+}
+
+.Marvelcontent .content-right{
+	float: left;
+	padding-left: 10px;	
+}
+
+.content-image{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 240px;
+	height: 131px;
+}
+
+.Marvelcontent .content-right>ul>li{
+	float: left;
+	padding-left: 50px;
+}
+
+.Marvelcontent .content-right>ul>li>a{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.Marvelcontent #Marvelcontentbox-bot{
+	width: 1000px;
+	height: 250px;
+}
+
+.Marvelcontent .SuperHeroInt{
+	margin-left: 50px;
+	float: left;
+}
+
+#Marvelcontentbox-bot .SuperHeroInt>h1{
+	font-style: italic;
+}
+
+.SuperHeroInt .IronMansay{
+	width: 350px;
+	height: auto;
+	margin-top: -50px;
+}
+
+.SuperHeroInt .IronMansay>img{
+	width: 350px;
+}
+
+.SuperHeroInt .IronMansay>p{
+	position: relative;
+	top: -20px;
+	color: #FFFFFF;
+}
+
+
+
+#Marvelcontentbox-bot .SuperHeroPic{
+	z-index: 0;
+	position: relative;
+	left: -50px;
+	margin-top: -550px;
+	float: right;
+}
+
+#Marvelcontentbox-bot .SuperHeroPic>img{
+	width: 600px;
+	transition: transform;
+}
+
+
+#Marvelcontentbox-bot .SuperHeroPic>img:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.doublearrows{
+	position: relative;
+	top: 100px;
+	width: 100px;
+	margin: 0 auto;
+}
+
+@keyframes donghua{
+	0%{top: 0;}
+	25%{top: 10px;}
+	50%{top: 0;}
+	75%{top: 10px;}
+	100%{top: 0px;}
+}
+
+
+.doublearrows>img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	animation:donghua 1.5s infinite;
+}
+
+
+
+.m-Back{
+	width: 100%;
+	height: 960px;
+}
+
+/* Spiderman */
+
+.SpiderBGM{
+	background: url(../image/Marvel/Spider-Back.png) center bottom no-repeat;
+}
+
+
+.Spidermancontent{
+	border-radius: 25px;
+	border: 2px solid #FFF0F5;
+	position: relative;
+	top: 200px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #722ED1;
+}
+
+	
+.Spiderman{
+	margin-top: 150px;
+}
+
+.Spderman-left{
+	float: left;
+}
+
+.Spderman-left>img{
+	height: 100px;
+}
+
+	
+.Spiderman-right{
+	float: left;
+}
+
+	
+.Spiderman-right>h3{
+	color:#6A5ACD;
+	font-size: 25px;
+	font-style: unset;
+	margin-top: -100px;
+	
+}
+
+
+.Spiderman-right>ul>li{
+	float: left;
+	padding-left: 50px;
+}
+
+	
+.Spiderman-right>ul>li>a{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.Spidermancontent .Spidermanint{
+	margin-left: 100px;
+	float: left;
+}
+
+.Spidermancontent .Spidermanint>h1{
+	font-style: italic;
+}
+
+.Spidermancontent .Spidermanint>p{
+	color: #FFFFFF;
+}
+
+
+.Spidermanint .SpiderMansay{
+
+	height: 250px;
+	margin-top: -20px;
+}
+
+.Spidermanint .SpiderMansay>img{
+	width:250px;
+}
+
+.Spidermanint .SpiderMansay>p{
+	position: relative;
+	top:-60px;
+	color: #FFFFFF;
+}
+	
+.SpiderMansaytwo{
+	margin-top: -90px;
+}
+
+
+.Spidermancontent .SpidermanPic{
+	position: relative;
+	left: -20px;
+	margin-top: -750px;
+	float: right;
+}
+
+.Spidermancontent .SpidermanPic>img{
+	width: 600px;
+}
+
+.Spidermancontent .SpidermanPic{
+	position: relative;
+	left: 88px;
+	margin-top: -475px;
+	float: right;
+}
+
+.Spidermancontent .SpidermanPic>img{
+	width: 800px;
+	transition: transform;
+}
+
+.Spidermancontent .SpidermanPic>img:hover{
+	cursor: pointer;
+	transform:translate(-150px) rotate(15deg);
+}
+
+
+/* Captain American */
+
+
+.CaptainBGM{
+	background:url(../image/Marvel/CaptainA-Back.png) center right no-repeat ;
+}
+
+
+.CaptainA{
+	border-radius: 25px;
+	border: 2px solid #FFF0F5;
+	position: relative;
+	top: 200px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: linear-gradient(to right,#CD5C5C,#6495ED);
+}
+
+
+.Acontent{
+	margin-top: 150px;
+}
+
+
+.CaptainA-left{
+	margin-top: -90px;
+	float: left;
+}
+
+.CaptainA-left>img{
+	height: 680px;
+}
+
+.CaptainA-right{
+	float: left;
+}
+
+.CaptainA-right>h3{
+	color:#6A5ACD;
+	font-size: 25px;
+	font-style: unset;
+	margin-top: -100px;
+	
+}
+
+
+.CaptainA-right>ul>li{
+	float: left;
+	padding-left: 50px;
+}
+
+.CaptainA-right>ul>li>a{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.CaptainA .CaptainAint{
+	margin-left: 100px;
+	float: left;
+}
+
+	
+.CaptainA .CaptainAint>h1{
+	font-style: italic;
+}
+
+.CaptainA .CaptainAint>p{
+	color: #FFFFFF;
+}
+
+
+.CaptainA .CaptainAPic{
+	position: relative;
+	left: -150px;
+	margin-top: -250px;
+	float: right;
+}
+
+.CaptainA .CaptainAPic>img{
+	width: 300px;
+}
+
+
+
+.CaptainA .CaptainAsay{
+	position: relative;
+	top: 270px;
+	height: 250px;
+	margin-top: -20px;
+}
+
+.CaptainAint .CaptainAsay>img{
+	width:250px;
+}
+
+.CaptainAint .CaptainAsay>p{
+	position: relative;
+	top:-60px;
+	color: #FFFFFF;
+}
+
+
+/* Wolverline */
+
+
+.WolvesBGM{
+	background: url(../image/Marvel/Wolves-back.png) left bottom no-repeat;
+}
+
+
+
+.Wolvercontent{
+	border-radius: 25px;
+	border: 2px solid #FFF0F5;
+	position: relative;
+	top: 200px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url(../image/Marvel/wolves.jpg)	
+}
+
+
+.Wovles{
+	margin-top: 150px;
+}
+
+.Wolverlinetop{
+	width: 1000px;
+	height: 100px;
+}
+
+.Wolverlinetop .Wolverlinehome{
+	float: left;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	width: 80px;
+	margin: 10px auto auto 80px;
+}
+
+
+.Wolverlinetop .Wolverlinehome>h4{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.Wolverlinetop .Wolverlinelist{
+	float: left;
+}
+
+.Wolverlinetop .Wolverlinelist>ul{
+	width: 500px;
+	height: auto;
+}
+
+.Wolverlinetop .Wolverlinelist>ul>li{
+	float: left;
+	padding-left: 40px;
+}
+
+.Wolverlinetop .Wolverlinelist>ul>li>a{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+
+.Wolverlinetop .Wolverimage{
+	margin: 10px 50px auto auto;
+}
+
+.Wolverimage>img{
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
+
+.Wolverlinebot{
+	width: 1000px;
+	height: 400px;
+}
+
+
+
+
+.Wolverlinebot .WolverlineBiography{
+	width: 400px;
+	float: left;
+	margin: 10px auto auto 80px;
+}
+
+
+.Wolverlinebot .WolverlineBiography>h1{
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	font-family: "agency fb";
+}
+
+.Wolverlinebot .WolverlineBiography>img{
+	margin-top: -50px;
+	width: 400px;
+	height: 200px;
+}
+
+.Wolverlinebot .WolverlineBiography .wolversay{
+	position: relative;
+	top: 100px;
+	left: -400px;
+}
+
+.Wolverlinebot .WolverlineBiography>ul{
+	position: absolute;
+	bottom: 0;
+}
+
+
+.Wolverlinebot .WolverlineBiography>ul>li{
+	float: left;
+	padding-left: 25px;
+}
+
+.Wolverlinebot .WolverlineBiography>ul>li>a{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.Wolverlinebot .bestmoment{
+	width: 1000px;
+	height: auto;
+}
+
+.bestmoment #wolvesvideo{
+	width: 200px;
+	height: 133px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 25px;
+	border: 1px solid #FFF0F5;
+}
+
+
+.bestmoment>span{
+	position: absolute;
+	right: 85px;
+	bottom: 45px;
+	font-size: 35px;
+}
+
+.bestmoment>span:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.bestmoment #wolvesline{
+	margin-top: -100px;
+}
+
+
+
+/* Haoke */
+
+
+.HaokeBGM{
+	background: url(../image/Marvel/Haoke-back.png) bottom left lavender;
+}
+
+.Haokecontent{
+	border-radius: 25px;
+	border: 2px solid #FFF0F5;
+	position: relative;
+	top: 50px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #0CA3B9; 
+}
+
+
+.Haoke{
+	margin-top: 150px;
+}
+
+.Haoketop{
+	width: 1000px;
+	height: 100px;
+}
+
+.Haoketop .Haokeicon{
+	float: left;
+}
+
+.Haoketop .Haokeicon>img{
+	height: 150px;
+}
+
+
+.Haoketop .Haokelist{
+	float: left;
+}
+
+.Haoketop .Haokelist>ul{
+	float: left;
+}
+
+.Haoketop .Haokelist>ul>li{
+	float: left;
+	padding-left: 60px;
+}
+
+
+.Haoketop .Haokelist>ul>li>a{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+.Haokeone{
+	position: relative;
+	top: -200px;
+	left: 250px;
+}
+
+.Haokeone>img{
+	width: 444px;
+	height: 758px;
+}
+
+
+.Haokebot{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1000px;
+	height: 250px;
+}
+
+
+
+
+.Haokewhat{
+	position: relative;
+	bottom: -90px;
+	margin-left: 20px;
+	float: left;
+	width: 250px;
+}
+
+
+.Haokewhat>h2{
+	color: #FFFFFF;
+}
+
+.Haokespan{
+	background-color: #FFFFFF;
+	width: 2px;
+	height: 70px;
+	position: absolute;
+	top: 100px;
+	margin: auto 10px;
+	
+}
+
+
+
+
+.haokesay>p{
+	color: #FFFFFF;
+	font-style: italic;
+	word-spacing: -1px;
+}
+
+
+.Haoke-right{
+	position: relative;
+	bottom: -150px;
+	float: right;
+}
+
+
+
+.Haoke-right>img{
+	width: 177px;
+	height: 100px;
+}
+
+
+.Haokevideo{
+	width: 200px;
+	height: 133px;
+	position: absolute;
+	right: 0;
+	border-radius: 25px;
+	border: 1px solid #FFF0F5;
+}
+
+.Haoke-right>span{
+	color: red;
+	position: relative;
+	right: 80px;
+	bottom: -20px;
+	font-size: 35px;
+}
+
+.Haoke-right>span:hover{
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+
+#Haoke-name{
+	position: absolute;
+	top: 20px;
+	right: 200px;
+	width: 480px;
+	height: 270px;
+}
+
+
+
+
+/* Blackwidow Spider */
+
+.BlackBGM{
+	background: url(../image/Marvel/Blackw-back.png) center right;
+}
+
+.Blackwidowcontent{
+	border-radius: 25px;
+	border: 2px solid #FFF0F5;
+	position: relative;
+	top: 50px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../image/Marvel/bwspiderpic.png);
+}
+
+
+.Blackwidow{
+	margin-top: 150px;
+}
+
+.Blackwidowtop{
+	width: 1000px;
+	height: 100px;
+}
+
+
+.Blackwidowtop .Blackwidowlist{
+	float: left;
+}
+
+.Blackwidowtop .Blackwidowlist>ul{
+	float: left;
+}
+
+.Blackwidowtop .Blackwidowlist>ul>li{
+	float: left;
+	padding-left: 40px;
+}
+
+
+.Blackwidowtop .Blackwidowlist>ul>li>a{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
+
+
+.Blackwidowbot{
+	position: absolute;
+	bottom: 0;
+	top: 250px;
+	left: 0;
+	width: 1000px;
+	height: 100px;
+}
+
+
+
+
+.Blackwidowwhat{
+	position: relative;
+	bottom: -90px;
+	margin-left: 20px;
+	float: left;
+	width: 250px;
+}
+
+
+.Blackwidowwhat>h2{
+	color: #FFFFFF;
+}
+
+.Blackwidowspan{
+	background-color: #FFFFFF;
+	width: 2px;
+	height: 70px;
+	position: absolute;
+	top: 100px;
+	margin: auto 10px;
+	
+}
+
+
+
+
+.Blackwidowsay>p{
+	color: #00aa7f;
+	font-style: italic;
+	word-spacing: -1px;
+}
+
+
+.Blackwidow-right{
+	position: relative;
+	bottom: -150px;
+	float: right;
+}
+
+
+
+.Blackwidow-right>img{
+	width: 177px;
+	height: 100px;
+}
+
+
+.Blackwidowvideo{
+	width: 200px;
+	height: 133px;
+	position: absolute;
+	right: 0;
+	border-radius: 25px;
+	border: 1px solid #FFF0F5;
+}
+
+.Blackwidow-right>span{
+	color: red;
+	position: relative;
+	right: 80px;
+	bottom: -20px;
+	font-size: 35px;
+}
+
+.Blackwidow-right>span:hover{
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.Blackwidowimage>img{
+	float: right;
+	width: 100px;
+	height: 100px;	
+}
+
+#Bws-name{
+	position: relative;
+	top: 20px;
+	right: 200px;
+	width: 480px;
+	height: 270px;
+}
+
+
+
+/* 漫威动漫栏 */
+
+.Marvel-animation{
+	width: 100%;
+	height: 557px;
+	background: url(../images/am_bj.jpg) center top no-repeat;
+}
+
+.animationwrap{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.animationwrap .animation-title{
+	font-size: 24px;
+	color: #000;
+	padding-top: 32px;
+}
+
+
+.animationwrap .m-knowmore{
+	font-size: 14px;
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 3;
+	width: 114px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background: #000;
+	right: 0;
+	top: 31px;
+}
+
+.animationwrap .m-knowmore:hover{
+	cursor: pointer;
+	background: red;
+}
+
+
+.animation-video{
+	width: 1000px;
+	margin-top: 20px;
+}
+
+.animation-video li {
+    float: left;
+    display: inline;
+    width: 236px;
+	margin-left: 50px;
+    position: relative;
+	padding: 0;
+	box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.animation-video li a{
+	display: block;
+	position: relative;
+}
+
+.animation-video li>a>.Video-image{
+	display: block;
+	border: 1px solid #000000;
+	z-index: 1;
+}
+
+
+.animation-video li>a>.Video-image:hover{
+	border-right: 4px solid #5F8D94;
+}
+
+
+.animation-video li>a .Video-two{
+	width: 31px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 2px;
+	z-index: 2;
+}
+
+
+.animation-video>li>h4{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 16px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.animation-video>li>h4>a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 4px;
+    padding: 4px;
+    background: #000;
+}
+
+
+
+.m-animation .m-prev,.m-animation .m-next {
+    position: absolute;
+    background: url(../image/Marvel/iconfont.png) no-repeat;
+    top: 50%;
+    width: 34px;
+    height: 60px;
+    z-index: 4;
+    left: 50%;
+    top: 50%;
+}
+
+.m-animation .m-prev{
+	margin-left: -532px;
+	background-position: -72px -36px;
+}
+
+
+.m-animation .m-next{
+	margin-left: 488px;
+    background-position: -108px -36px;
+}
+
+.m-animation{
+	position: relative;
+	width: 956px;
+	height: 230px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.m-animation-ul{
+	width: 800%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.m-animation-ul>li{
+	width: 466px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	margin-right: 20px;
+}
+
+.m-anr{
+	position: relative;
+	padding-left: 150px;
+	margin-top: 60px;
+}
+
+.m-anr>a{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 134px;
+	height: 168px;
+}
+
+.m-anr>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	border: 1px solid #000;
+	z-index: 2;
+}
+
+	
+.m-anr .shadow{
+	position: absolute;
+	right: -2px;
+	bottom: -4px;
+	background: url(../images/shadow03.png) repeat;
+	z-index: 1;
+	width: 134px;
+	height: 168px;
+}
+
+
+.m-anr>h2{
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+
+.m-anr>p{
+	font-size: 18px;
+	line-height: 24px;
+	height: 132px;
+	overflow: hidden;
+}
+
+
+
+/* m_footer */
+
+#m_footer{
+	width: 100%;
+	height: 300px;
+	background-color: #000000;
+}
+
+#m_footer>p{
+	position: relative;
+	top: 100px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+
